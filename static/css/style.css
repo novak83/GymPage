@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sansita Swashed", sans-serif;
+}
+
+.hero-content {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://assets.sweat.com/shopify_articles/images/010/005/285/original/BackToGymSWEATf1f07a7f6f79e7b8807d2436a6ae8e8b.jpg?1625801362');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero-content nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+.hero-content nav .brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.hero-content nav .brand span {
+    color: #ea1538;
+}
+
+.hero-content nav ul li {
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hero-content nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.5s;
+}
+
+.hero-content nav button {
+    width: 150px;
+    padding: 8px 0;
+    background-color: #ea1538;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Sansita Swashed", sans-serif;
+}
+
+.hero-content nav button:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+.hero-content .content {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content .content h2 {
+    margin: 10px 0;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.hero-content .content p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
